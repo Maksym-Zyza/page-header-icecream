@@ -1,0 +1,84 @@
+/* email-and-phone */
+.page-header-adres {
+  display: none;
+  align-items: center;
+  margin-left: auto;
+
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 285px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    display: block;
+    margin-top: 16px;
+    margin-left: 78px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    display: inline-flex;
+    margin-left: 280px;
+    margin-top: 0;
+  }
+}
+
+.page-header-adres .adres-item + .adres-item {
+  margin: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 30px;
+  }
+}
+
+.adres-item-link {
+  display: inline-block;
+  text-decoration: none;
+  color: $second-text-color;
+  fill: $second-text-color;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  @media screen and (max-width: 767px) {
+    font-size: 18px;
+    line-height: 1.17;
+    padding-bottom: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 31px;
+    padding-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+    fill: $accent-color;
+  }
+}
+
+.adres-item-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.adres-item-telephone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+}

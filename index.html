@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Icecream</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="container nav-box">
+        <a class="logo" href="./">
+          <svg class="logo-item">
+            <use href="./img/sprite.svg#icon-web-studio"></use>
+          </svg>
+        </a>
+        <button
+          type="button"
+          class="menu-button is-open"
+          aria-expanded="false"
+          data-menu-button
+        >
+          <svg
+            class="nav-button-icon"
+            width="24"
+            height="16"
+            aria-label="Переключатель мобильного меню"
+          >
+            <use
+              class="icon-menu"
+              href="./img/sprite2.svg#icon-menu_close"
+            ></use>
+            <use
+              class="icon-cross"
+              href="./img/sprite2.svg#icon-menu_open"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-container" data-menu>
+          <ul class="site-nav list">
+            <li class="item-nav">
+              <a class="site-nav-link current" href="./">Студия</a>
+            </li>
+            <li class="item-nav">
+              <a class="site-nav-link" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="item-nav">
+              <a class="site-nav-link" href="">Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="page-header-adres list">
+            <li class="adres-item">
+              <a class="adres-item-link" href="mailto:info@devstudio.com">
+                <svg class="adres-item-envelope">
+                  <use href="./img/sprite.svg#icon-envelope"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="adres-item">
+              <a class="adres-item-link" href="tel:+380961111111">
+                <svg class="adres-item-telephone">
+                  <use href="./img/sprite.svg#icon-Tel"></use>
+                </svg>
+                +38 096 111 11 11
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section 1 - Hero -->
+
+    <script src="./js/menu.js"></script>
+  </body>
+</html>

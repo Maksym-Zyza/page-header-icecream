@@ -1,0 +1,26 @@
+/* logo */
+.logo {
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 81px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 15px;
+    margin-right: 85px;
+    padding-top: 24px;
+    padding-bottom: 23px;
+  }
+
+  &-item {
+    width: 141px;
+    height: 28px;
+
+    @media screen and (min-width: 1200px) {
+      width: 153px;
+      height: 31px;
+    }
+  }
+}
