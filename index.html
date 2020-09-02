@@ -15,9 +15,10 @@
     <header class="page-header">
       <div class="container nav-box">
         <a class="logo" href="./">
-          <svg class="logo-item">
+          <img src="./img/logo.svg" alt="logo icecream" />
+          <!-- <svg class="logo-item">
             <use href="./img/sprite.svg#icon-web-studio"></use>
-          </svg>
+          </svg> -->
         </a>
         <button
           type="button"
@@ -27,51 +28,49 @@
         >
           <svg
             class="nav-button-icon"
-            width="24"
-            height="16"
+            width="20"
+            height="14"
             aria-label="Переключатель мобильного меню"
           >
             <use
-              class="icon-menu"
-              href="./img/sprite2.svg#icon-menu_close"
+              class="icon-close"
+              href="./img/sprite_header.svg#icon-close"
             ></use>
             <use
-              class="icon-cross"
-              href="./img/sprite2.svg#icon-menu_open"
+              class="icon-burger"
+              href="./img/sprite_header.svg#icon-burger"
             ></use>
           </svg>
         </button>
+        <button class="btn-buy-now"> <span class="btn-text">Buy now</span>
+          <svg class="btn-icon" width="10" height="10">
+            <use href="./img/sprite_header.svg#icon-vector"></use>
+          </svg>
+        </button>
         <div class="menu-container" data-menu>
+          <button class="btn-burger-buy-now"> <span class="btn-burger-text">Buy now</span>
+            <svg class="btn-burger-icon" width="10" height="10">
+              <use href="./img/sprite_header.svg#icon-vector"></use>
+            </svg>
+          </button>
           <ul class="site-nav list">
             <li class="item-nav">
-              <a class="site-nav-link current" href="./">Студия</a>
+              <a class="site-nav-link current" href="./">Home</a>
             </li>
             <li class="item-nav">
-              <a class="site-nav-link" href="./portfolio.html">Портфолио</a>
+              <a class="site-nav-link" href="./">About us</a>
             </li>
             <li class="item-nav">
-              <a class="site-nav-link" href="">Контакты</a>
+              <a class="site-nav-link" href="./">How it’s made?</a>
+            </li>
+            <li class="item-nav">
+              <a class="site-nav-link" href="./">Our products</a>
+            </li>
+            <li class="item-nav">
+              <a class="site-nav-link" href="./">Contact</a>
             </li>
           </ul>
 
-          <ul class="page-header-adres list">
-            <li class="adres-item">
-              <a class="adres-item-link" href="mailto:info@devstudio.com">
-                <svg class="adres-item-envelope">
-                  <use href="./img/sprite.svg#icon-envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
-            </li>
-            <li class="adres-item">
-              <a class="adres-item-link" href="tel:+380961111111">
-                <svg class="adres-item-telephone">
-                  <use href="./img/sprite.svg#icon-Tel"></use>
-                </svg>
-                +38 096 111 11 11
-              </a>
-            </li>
-          </ul>
         </div>
       </div>
     </header>
