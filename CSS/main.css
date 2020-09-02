@@ -3,7 +3,6 @@ body {
   color: #ffffff;
   background: #ffffff;
   font-family: "DM Sans", sans-serif;
-  letter-spacing: 0.03em;
 }
 
 /* Утилиты*/
@@ -27,24 +26,10 @@ img {
   list-style: none;
 }
 
-.section {
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
-@media screen and (min-width: 1200px) {
-  .section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
-}
-
 /* page-header */
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 @media screen and (min-width: 320px) {
@@ -73,13 +58,13 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border-bottom: 1px solid #ececec;
   background-color: #ffb8ca;
 }
 
 /* logo */
 .logo {
   margin-top: 6px;
+  margin-left: 20px;
   widows: 199px;
   height: 50px;
 }
@@ -87,13 +72,13 @@ img {
 @media screen and (min-width: 768px) {
   .logo {
     margin-top: 36px;
-    margin-left: 19px;
+    margin-left: 34px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .logo {
-    margin-left: 30px;
+    margin-left: 46px;
     margin-right: 110px;
   }
 }

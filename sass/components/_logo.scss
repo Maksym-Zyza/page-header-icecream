@@ -1,18 +1,17 @@
 /* logo */
 .logo {
   margin-top: 6px;
+  margin-left: 20px;
   widows: 199px;
   height: 50px;
 
   @media screen and (min-width: 768px) {
     margin-top: 36px;
-    margin-left: 19px;
+    margin-left: 34px;
   }
 
   @media screen and (min-width: 1200px) {
-    margin-left: 30px;
+    margin-left: 46px;
     margin-right: 110px;
-    // padding-top: 24px;
-    // padding-bottom: 23px;
   }
 }
