@@ -27,6 +27,10 @@ img {
 }
 
 /* page-header */
+.page-header {
+  background-color: #ffb8ca;
+}
+
 .container {
   margin-left: auto;
   margin-right: auto;
@@ -58,7 +62,6 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #ffb8ca;
 }
 
 /* logo */
