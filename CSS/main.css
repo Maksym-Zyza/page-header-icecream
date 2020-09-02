@@ -129,6 +129,7 @@ img {
   border: none;
   background-color: transparent;
   z-index: 2;
+  outline: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -140,6 +141,23 @@ img {
 
 @media screen and (min-width: 1199px) {
   .menu-button {
+    display: none;
+  }
+}
+
+.nav-button-close {
+  position: absolute;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-button-close {
+    top: -30px;
+    left: 224px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .nav-button-close {
     display: none;
   }
 }
