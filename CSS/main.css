@@ -79,14 +79,15 @@ img {
 
 /* logo */
 .logo {
-  padding-top: 6px;
-  padding-bottom: 6px;
+  margin-top: 6px;
+  widows: 199px;
+  height: 50px;
 }
 
 @media screen and (min-width: 768px) {
   .logo {
-    margin-top: 37px;
-    margin-left: 34px;
+    margin-top: 36px;
+    margin-left: 19px;
   }
 }
 
@@ -94,20 +95,6 @@ img {
   .logo {
     margin-left: 30px;
     margin-right: 110px;
-    padding-top: 24px;
-    padding-bottom: 23px;
-  }
-}
-
-.logo-item {
-  width: 141px;
-  height: 28px;
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-item {
-    width: 153px;
-    height: 31px;
   }
 }
 
@@ -189,11 +176,18 @@ img {
     display: none;
     top: 0;
     right: 0;
-    width: 250px;
-    height: 502px;
+    width: 254px;
+    height: 1020px;
     z-index: 1;
     margin-top: 0;
     background: #e17992;
+  }
+}
+
+@media screen and (max-width: 1199px) and (max-width: 767px) {
+  .menu-container {
+    width: 250px;
+    height: 502px;
   }
 }
 
@@ -367,7 +361,7 @@ img {
 @media screen and (min-width: 1199px) {
   .btn-buy-now {
     left: 1006px;
-    top: 65px;
+    top: 38px;
   }
 }
 
